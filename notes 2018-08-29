@@ -1,0 +1,11 @@
+gvim --> .cpp program --> g++ compiler --> .obj --> .exe --> loader
+
+bootstrapping: compiling a compiler
+cross-compiling: compiling for another machine
+
+$ vim hello.cpp
+g++ -c hello.cpp -o hello.o
+g++ hello.o -o hello.exe
+hello
+
+use make
